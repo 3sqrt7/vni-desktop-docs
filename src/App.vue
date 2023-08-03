@@ -11,7 +11,7 @@ defineProps<{
 window.addEventListener("load", () => {
     document.querySelector(".top .links a")?.setAttribute("href", "https://desktop.vnisoft.top/");
     (document.querySelector(".top .links a") as HTMLElement).onclick = () => {
-        location.href = "https://desktop.vnisoft.top/";
+        window.open("https://desktop.vnisoft.top/", "_blank");
     };
 });
 </script>
